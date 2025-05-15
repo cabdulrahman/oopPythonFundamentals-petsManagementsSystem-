@@ -8,8 +8,11 @@ Rasmus.name = "Rasmus"
 print(Rasmus.name)
 print(Rasmus.speak())
 class Dog:
+
+    species = "Canis  lupus familiaris"# class attribute
+    
     def __init__(self, name,breed,age = "N/A"):
-        self.name = name
+        self.name = name# instance attribute
         self.breed = breed
         self.age = age
     def speak(self):
